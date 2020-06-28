@@ -1,0 +1,32 @@
+{
+    "name": "pmaas/neos-tablestyles",
+    "description": "CKEditor table styles plugin for for Neos CMS",
+    "type": "neos-package",
+    "license": "GPL-3.0",
+    "keywords": [
+        "neos",
+        "neoscms",
+        "flow",
+        "table",
+        "tablestyle",
+        "ckeditor",
+        "editor"
+    ],
+    "authors": [
+        {
+            "name": "Philipp Maas",
+            "email": "mail@pmaas.com",
+            "homepage": "http://pmaas.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "neos/neos": "^5.2",
+        "neos/neos-ui": "^5.2"
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Pmaas.Neos.TableStyles"
+        }
+    }
+}

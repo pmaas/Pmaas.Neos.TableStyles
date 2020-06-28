@@ -1,0 +1,22 @@
+Neos:
+  Neos:
+    Ui:
+      resources:
+        javascript:
+          'Pmaas.Neos.TableStyles':
+            resource: resource://Pmaas.Neos.TableStyles/Public/JavaScript/TableStyles/Plugin.js
+      frontendConfiguration:
+        'Pmaas.Neos:TableStyles': '${Configuration.setting(''Pmaas.Neos.TableStyles'')}'
+
+Pmaas:
+  Neos:
+    TableStyles:
+      presets:
+        label: 'Table style'
+#        options:
+#          primary:
+#            label: 'Primary style'
+#            cssClass: 'table--primary'
+#          secondary:
+#            label: 'Secondary style'
+#            cssClass: 'table--secondary'

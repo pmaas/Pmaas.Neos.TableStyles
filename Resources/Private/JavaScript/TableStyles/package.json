@@ -1,0 +1,23 @@
+{
+    "description": "CKEditor table styles plugin for for Neos CMS",
+    "license": "proprietary",
+    "private": true,
+    "scripts": {
+        "build": "NODE_ENV=production neos-react-scripts build && terser --compress --mangle -o ../../../Public/JavaScript/TableStyles/Plugin.js -- ../../../Public/JavaScript/TableStyles/Plugin.js",
+        "watch": "neos-react-scripts watch"
+    },
+    "dependencies": {
+        "@ckeditor/ckeditor5-basic-styles": "^10.1.0",
+        "@neos-project/react-ui-components": "^5.2.0"
+    },
+    "devDependencies": {
+        "@ckeditor/ckeditor5-table": "^13.0.0",
+        "@neos-project/eslint-config-neos": "^2.3.0",
+        "@neos-project/neos-ui-extensibility": "^5.2.0",
+        "babel-eslint": "^10.1.0",
+        "terser": "^4.8.0"
+    },
+    "neos": {
+        "buildTargetDirectory": "../../../Public/JavaScript/TableStyles"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "extends": "@neos-project/eslint-config-neos",
+    "parser": "babel-eslint",
+    "globals": {
+        "expect": true,
+        "sinon": false
+    },
+    "env": {
+        "node": true,
+        "mocha": true
+    }
+}
