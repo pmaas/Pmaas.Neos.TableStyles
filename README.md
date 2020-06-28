@@ -1,5 +1,6 @@
 # Table styles plugin for Neos CMS    
 
+[![Latest Stable Version](https://poser.pugx.org/pmaas/neos-tablestyles/v)](//packagist.org/packages/pmaas/neos-tablestyles) [![Total Downloads](https://poser.pugx.org/pmaas/neos-tablestyles/downloads)](//packagist.org/packages/pmaas/neos-tablestyles)  [![License](https://poser.pugx.org/pmaas/neos-tablestyles/license)](//packagist.org/packages/pmaas/neos-tablestyles)
 > This package provides a drop down to add custom CSS classes to CKEditor tables in Neos CMS.
 
 ![Table style drop down](Documentation/Screencast.gif)  
