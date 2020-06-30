@@ -1,6 +1,6 @@
 {
     "name": "pmaas/neos-tablestyles",
-    "description": "CKEditor table styles plugin for for Neos CMS",
+    "description": "CKEditor table styles plugin for Neos CMS",
     "type": "neos-package",
     "license": "MIT",
     "keywords": [
