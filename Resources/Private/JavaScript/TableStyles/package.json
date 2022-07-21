@@ -15,7 +15,7 @@
         "@neos-project/eslint-config-neos": "^2.3.0",
         "@neos-project/neos-ui-extensibility": "^5.2.0",
         "babel-eslint": "^10.1.0",
-        "terser": "^4.8.0"
+        "terser": "^4.8.1"
     },
     "neos": {
         "buildTargetDirectory": "../../../Public/JavaScript/TableStyles"
